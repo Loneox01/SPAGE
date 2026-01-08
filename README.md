@@ -1,5 +1,13 @@
 # SPAGE
 
+### CHECK OUT THIS DEMO OF THE WEB APP
+
+
+https://github.com/user-attachments/assets/71a9e274-8888-436f-a4ad-d535bd1221e6
+
+
+### DETAILS
+
 Spage is a locally hosted web application with a single text box "prompt bar" in the middle of the screen.  
 The idea of the project is that you can type various commands such as:
 - "Change the background to a blurple color"
@@ -20,3 +28,4 @@ This project employs a REACT+TypeScript Frontend along with a Python Backend.
 Along with commonly used libraries, the following libraries are used:
 - Google Gemini API for prompt processing
 - Unsplash API for image search
+
