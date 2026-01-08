@@ -189,7 +189,7 @@ function App() {
                     {el.type === "image" && (
                         <img
                             src={el.url}
-                            alt="AI Generated"
+                            alt=""
                             style={{
                                 width: el.width,
                                 height: "auto",
@@ -207,7 +207,12 @@ function App() {
                 onSubmit={handleSubmit}
                 style={{
                     zIndex: 101,
-                    position: "relative"
+                    position: "absolute",
+                    bottom: "40px",
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    display: "flex",
+                    gap: "10px"
                 }}
             >
                 <input
